@@ -4,29 +4,30 @@ import Layout from "../layouts/Layout.astro"
 const pageTitle = "About Me";
 
  
-const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
-};
+// const identity = {
+//   firstName: "Sarah",
+//   country: "Canada",
+//   occupation: "Technical Writer",
+//   hobbies: ["photography", "birdwatching", "baseball"],
+// };
 
+
+const identity = ["Sarah", "Canad", "Technical Writer"]
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 ---
 <Layout>
-    <h1>My Astro Site</h1>
-    <h1>{pageTitle}</h1>
-     <h2>... and my new Astro site!</h2>
-  
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-  
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-  
-    
-  ,
-    <a href="/">home</a>
-    <a href="about">About</a>
- </Layout>
 
+    <!-- <ul>
+      <p>My Identity:</p>
+      {identity.map((identity) => <li>{identity}</li>)}
+    </ul>
+  <ul> -->
+    <h1>I'm khushboo from Himachal Pradesh</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nobis iusto sapiente, repellendus in eligendi autem provident sed aliquam, dolores inven\\\\\\\\\\\\\\
+  <p>My skills are:</p>
+  {skills.map((skills) => <li>{skills}</li>)}
+  </ul>
+ </Layout>
+ 
 
  

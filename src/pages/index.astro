@@ -1,13 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro"
-const homePagetittle = "Astro"
+import '../styles/global.css';
+// const homePagetittle = "Astro"
 ---
+<style>
+    h1, p{
+        color: rgb(49, 79, 80);
+    }
+    </style> 
 <Layout>
-    <nav>
-        <img src="public/flower.jpeg" alt="">
-        <h1>{homePagetittle}</h1>
-        <a href="/">Home</a>
-         <a href="about">About</a>
-         <a href="blog">Blog</a>
-     </nav>
-</Layout>
+    <main>
+        <h1>Astro</h1>
+        <img src="astro.jpeg" alt="">
+        <!-- <h1>{homePagetittle}</h1> -->
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis sed accusamus tenetur vel ducimus odit quas ipsam placeat molestiae amet rerum, minus iure. Labore quidem natus sed aliquid itaque nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis modi amet nostrum natus ipsum doloribus earum deserunt temporibus harum ad neque pariatur nihil optio libero, quibusdam, iste, adipisci eum id?</p>
+     </main>
+ </Layout>
+ 
