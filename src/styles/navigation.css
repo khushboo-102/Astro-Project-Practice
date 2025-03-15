@@ -1,0 +1,27 @@
+     /* nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(22, 146, 22);
+        height: 80px;
+    }
+    nav img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 30px;
+        margin-top: 8%;
+    }
+    a{
+        color:black;
+        font-weight: 100;
+        font-size: 20px;
+        text-decoration: none;
+        column-gap: 80px;
+    }
+    .logoDiv{
+        display: flex;
+        gap: 40px;
+     }
+     nav .links {
+        margin-right: 10%;
+        } */

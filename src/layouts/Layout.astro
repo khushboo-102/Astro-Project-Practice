@@ -1,5 +1,9 @@
 ---
-//frontmatter
+import Navigation from '../components/Navigation.astro';
+// import Header from '../components/Header.astro';
+// import '../styles/navigation.css';
+import Footer from '../components/Footer.astro';
+
 ---
 
 <!DOCTYPE html>
@@ -10,8 +14,9 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div class="logoDiv">
+    <Navigation />
+    <!-- <Header /> -->
+          <!-- <div class="logoDiv">
         <img src="astro.jpeg" alt="">
         <h1>Astro</h1>
     </div>
@@ -20,11 +25,14 @@
         <a href="about">About</a>
         <a href="blog">Blog</a>
     </div>
-    </nav>
-    <slot></slot>
+    </nav>  -->
+    <slot></slot>   
+    <Footer/>
 </body>
 </html>
-<style>
+
+<!-- Styling of nav -->
+<!-- <style>
     nav{
         display: flex;
         justify-content: space-between;
@@ -52,4 +60,4 @@
      nav .links {
         margin-right: 10%;
         }
-</style>
+</style> -->
